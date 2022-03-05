@@ -4,14 +4,23 @@
     <div></div>
     <div class="hero__container">
       <div class="hero__main">
-        <h5 class="hero__title">Tomasz Swierad</h5>
-        <h3 class="hero__sub-title">Junior Front-End Developer</h3>
+        <h5 class="hero__title">{{ $t("hyunheeLee") }}</h5>
+        <h3 class="hero__sub-title">Software Developer</h3>
+        <nav>
+        <ul>
+          <li><a href="#" v-on:click.prevent="handleClick_changeLanguage('en')">English</a></li>
+          <li><a href="#" v-on:click.prevent="handleClick_changeLanguage('ja')">日本語</a></li>
+          <li><a href="#" v-on:click.prevent="handleClick_changeLanguage('cn')">简体中文</a></li>
+          <li><a href="#" v-on:click.prevent="handleClick_changeLanguage('tw')">繁体中文</a></li>
+          <li><a href="#" v-on:click.prevent="handleClick_changeLanguage('kr')">한국어</a></li>
+        </ul>
+      </nav>
         <a
           class="hero__btn"
-          href="mailto:endurophine@gmail.com"
+          href="mailto:jipai1121@gmail.com"
           subject="subject text"
           target="__blank"
-          title="Tomasz Świerad e-mail"
+          title="Hyunhee Lee e-mail"
           >Message Me</a
         >
       </div>
@@ -22,39 +31,39 @@
               class="hero__link"
               href="https://drive.google.com/file/d/1JMHQ70LbFCwserHUpR5q7XoI68ul7MFv/view"
               target="__blank"
-              title="Tomasz Świerad Resume"
+              title="Hyunhee Lee Resume"
               >Resume</a
             >
           </ul>
           <ul>
             <a
               class="hero__link"
-              href="https://github.com/TomSWD"
+              href="https://github.com/Ariakekoichi/"
               target="__blank"
-              title="Tomasz Świerad GitHub"
+              title="Hyunhee Lee GitHub(in preparation)"
               >Github</a
             >
           </ul>
           <ul>
             <a
               class="hero__link"
-              href="https://www.linkedin.com/in/tomasz-swierad/"
+              href="https://www.linkedin.com/in/hyunhee1121/"
               target="__blank"
-              title="Tomasz Świerad LinkedIn"
+              title="Hyunhee Lee LinkedIn"
               >LinkedIn</a
             >
           </ul>
           <ul>
             <a
               class="hero__link"
-              href="https://calendly.com/tomswd"
+              href="https://calendly.com/jipai1121"
               target="__blank"
-              title="Tomasz Świerad Schedule a call"
+              title="Hyunhee Lee Schedule a call"
               >Schedule a call</a
             >
           </ul>
         </li>
-        <div class="hero__copyright">© 2021 Tomasz Świerad</div>
+        <div class="hero__copyright">© 2022 Hyunhee Lee</div>
       </div>
     </div>
   </div>
