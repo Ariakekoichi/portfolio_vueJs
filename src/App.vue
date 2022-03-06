@@ -19,6 +19,7 @@ export default {
 </script>
 
 <style>
+/*
 @font-face {
   font-family: "Circular Std Book";
   src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot");
@@ -61,4 +62,5 @@ export default {
     url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.svg#Circular Std Medium")
       format("svg");
 }
+*/
 </style>
