@@ -13,5 +13,5 @@ export const i18n = new VueI18n({
       cn : require('./lang/cn.json'),
       tw : require('./lang/tw.json'),
       kr : require('./lang/kr.json'),
-    }
+    },
    })

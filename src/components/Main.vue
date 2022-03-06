@@ -1,78 +1,83 @@
 <template>
-  <div class="hero">
-    <img class="background" src="../assets/img/background.svg" />
-    <div></div>
-    <div class="hero__container">
-      <div class="hero__main">
-        <h5 class="hero__title">{{ $t("hyunheeLee") }}</h5>
-        <h3 class="hero__sub-title">Software Developer</h3>
-        <nav>
-        <ul>
-          <li><a href="#" v-on:click.prevent="handleClick_changeLanguage('en')">English</a></li>
-          <li><a href="#" v-on:click.prevent="handleClick_changeLanguage('ja')">日本語</a></li>
-          <li><a href="#" v-on:click.prevent="handleClick_changeLanguage('cn')">简体中文</a></li>
-          <li><a href="#" v-on:click.prevent="handleClick_changeLanguage('tw')">繁体中文</a></li>
-          <li><a href="#" v-on:click.prevent="handleClick_changeLanguage('kr')">한국어</a></li>
-        </ul>
-      </nav>
-        <a
-          class="hero__btn"
-          href="mailto:jipai1121@gmail.com"
-          subject="subject text"
-          target="__blank"
-          title="Hyunhee Lee e-mail"
-          >Message Me</a
-        >
-      </div>
-      <div class="hero__footer">
-        <li class="hero__links">
-          <ul>
+    <div class="hero">
+        <img class="background" src="../assets/img/background.svg" />
+        <div class="hero__container">
+        <div class="hero__main">
+            <nav>
+                Some pages are not yet translated.
+                <ul>
+                    <li><a href="#" v-on:click.prevent="changeLanguage('en')">English</a></li>
+                    <li><a href="#" v-on:click.prevent="changeLanguage('ja')">日本語</a></li>
+                    <li><a href="#" v-on:click.prevent="changeLanguage('cn')">简体中文</a></li>
+                    <li><a href="#" v-on:click.prevent="changeLanguage('tw')">繁体中文</a></li>
+                    <li><a href="#" v-on:click.prevent="changeLanguage('kr')">한국어</a></li>
+                </ul>
+            </nav>
+            <h5 class="hero__title">{{ $t("hyunheeLee") }}</h5>
+            <h3 class="hero__sub-title">{{ $t("Software Developer") }}</h3>
+
             <a
-              class="hero__link"
-              href="https://drive.google.com/file/d/1JMHQ70LbFCwserHUpR5q7XoI68ul7MFv/view"
-              target="__blank"
-              title="Hyunhee Lee Resume"
-              >Resume</a
+            class="hero__btn"
+            href="mailto:jipai1121@gmail.com"
+            subject="subject text"
+            target="__blank"
+            title="Hyunhee Lee e-mail"
+            >Message Me</a
             >
-          </ul>
-          <ul>
-            <a
-              class="hero__link"
-              href="https://github.com/Ariakekoichi/"
-              target="__blank"
-              title="Hyunhee Lee GitHub(in preparation)"
-              >Github</a
-            >
-          </ul>
-          <ul>
-            <a
-              class="hero__link"
-              href="https://www.linkedin.com/in/hyunhee1121/"
-              target="__blank"
-              title="Hyunhee Lee LinkedIn"
-              >LinkedIn</a
-            >
-          </ul>
-          <ul>
-            <a
-              class="hero__link"
-              href="https://calendly.com/jipai1121"
-              target="__blank"
-              title="Hyunhee Lee Schedule a call"
-              >Schedule a call</a
-            >
-          </ul>
-        </li>
-        <div class="hero__copyright">© 2022 Hyunhee Lee</div>
-      </div>
+            About
+            {{ $t("About") }}
+        </div><!-- hero__main -->
+        <div class="hero__footer">
+            <li class="hero__links">
+            <ul>
+                <a
+                class="hero__link"
+                href="https://github.com/Ariakekoichi/"
+                target="__blank"
+                title="Hyunhee Lee GitHub(in preparation)"
+                >Github</a
+                >
+            </ul>
+            <ul>
+                <a
+                class="hero__link"
+                href="https://www.linkedin.com/in/hyunhee1121/"
+                target="__blank"
+                title="Hyunhee Lee LinkedIn"
+                >LinkedIn</a
+                >
+            </ul>
+            <ul>
+                <a
+                class="hero__link"
+                href="https://calendly.com/jipai1121"
+                target="__blank"
+                title="Hyunhee Lee Schedule a call"
+                >Schedule a call</a
+                >
+            </ul>
+            </li>
+            <div class="hero__copyright">© 2022 Hyunhee Lee made by <a
+                class="hero__link"
+                href="https://vuejs.org/"
+                target="__blank"
+                title="Vue.js"
+                >Vue.js</a
+                ></div>
+            </div>
+        </div><!-- hero__footer -->
     </div>
-  </div>
 </template>
 
 <script>
 export default {
   name: "Main",
   components: {},
+  methods: {
+    changeLanguage(lang) {
+      this.$i18n.locale = lang;
+    }
+  }
 };
 </script>
 
@@ -153,7 +158,7 @@ export default {
   font-weight: 700;
 }
 .hero__copyright {
-  font-size: 10px;
+  font-size: 15px;
   margin: auto;
   margin: 0 auto;
 }
