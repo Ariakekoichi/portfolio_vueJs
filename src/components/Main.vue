@@ -1,33 +1,38 @@
 <template>
     <div class="hero">
-        <img class="background" src="@/assets/img/background.svg" />
+        <img class="background" src="@/assets/img/background.png" />
         <div class="container">
             <div class="main">
                 <nav class="text-right" id="changeLanguage">
                     <ul class="list-inline">
-                        <li class="list-inline-item">
+                        <li class="list-inline-item text-center">
                             <a href="#" v-on:click.prevent="changeLanguage('en')">
-                                <img src="@/assets/img/flag/us.svg" style="height:30px">English
+                                <img src="@/assets/img/flag/us.png" style="height:30px">
+                                <p>English</p>
                             </a>
                         </li>
-                        <li class="list-inline-item">
+                        <li class="list-inline-item text-center">
                             <a href="#" v-on:click.prevent="changeLanguage('ja')">
-                                <img src="@/assets/img/flag/jp.svg" style="height:30px">日本語
+                                <img src="@/assets/img/flag/jp.png" style="height:30px">
+                                <p>日本語</p>
                             </a>
                         </li>
-                        <li class="list-inline-item d-none">
+                        <li class="list-inline-item text-center"><!-- d-none -->
                             <a href="#" v-on:click.prevent="changeLanguage('cn')">
-                                <img src="@/assets/img/flag/cn.svg" style="height:30px">简体中文
+                                <img src="@/assets/img/flag/cn.png" style="height:30px">
+                                <p>简体中文</p>
                             </a>
                         </li>
-                        <li class="list-inline-item d-none">
+                        <li class="list-inline-item text-center"><!-- d-none -->
                             <a href="#" v-on:click.prevent="changeLanguage('tw')">
-                                <img src="@/assets/img/flag/tw.svg" style="height:30px">繁体中文
+                                <img src="@/assets/img/flag/tw.png" style="height:30px">
+                                <p>繁体中文</p>
                             </a>
                         </li>
-                        <li class="list-inline-item d-none">
+                        <li class="list-inline-item text-center"><!-- d-none -->
                             <a href="#" v-on:click.prevent="changeLanguage('kr')">
-                                <img src="@/assets/img/flag/kr.svg" style="height:30px">한국어
+                                <img src="@/assets/img/flag/kr.png" style="height:30px">
+                                <p>한국어</p>
                             </a>
                         </li>
                     </ul>
@@ -65,14 +70,6 @@
                         >
                     </li>
                 </ul>
-                <a
-                    class="btn"
-                    href="mailto:jipai1121@gmail.com"
-                    subject="subject text"
-                    target="_blank"
-                    title="Hyunhee Lee e-mail"
-                    >Message Me</a
-                >
                 </div>
                 <div id="content">
                     <h2 class="sub-title">About</h2>
@@ -80,7 +77,7 @@
                         {{ $t("About") }}
                     </div>
                     <h2 class="sub-title">Career</h2>
-                    Japan Apr. 2017 to Present
+                    <h3>Japan</h3>
                     <div id="japanCareer" class="flex flex-wrap flex-jc-center row">
                         <div class="flipper col-sm-4 my-3">
                             <div class="card card-flip h-100">
@@ -89,6 +86,7 @@
                                         <i class="fa fa-arrow-circle-right fa-5x float-right"></i>
                                         <h3 class="card-title">Smaregi Inc.</h3>
                                         <h5 class="card-title">Jun. 2021 to Present</h5>
+                                        <p class="card-title">Osaka, JAPAN</p>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content. This one is a little because it has more text!</p>
                                     </div>
                                 </div>
@@ -107,6 +105,7 @@
                                         <i class="fa fa-search fa-5x float-right"></i>
                                         <h3 class="card-title">AdInte Co. ltd.</h3>
                                         <h5 class="card-title">Nov. 2020 to May 2021</h5>
+                                        <p class="card-title">Kyoto, JAPAN</p>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                 </div>
@@ -126,6 +125,7 @@
                                         <i class="fa fa-search fa-5x float-right"></i>
                                         <h3 class="card-title">Cyber Port Inc.</h3>
                                         <h5 class="card-title">Aug. 2019 to Oct. 2020</h5>
+                                        <p class="card-title">Osaka, JAPAN</p>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                 </div>
@@ -145,6 +145,7 @@
                                         <i class="fa fa-search fa-5x float-right"></i>
                                         <h3 class="card-title">Livelynx Inc.</h3>
                                         <h5 class="card-title">Sep. 2017 to May 2019</h5>
+                                        <p class="card-title">Fukuoka, JAPAN</p>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                 </div>
@@ -164,6 +165,7 @@
                                         <i class="fa fa-search fa-5x float-right"></i>
                                         <h3 class="card-title">Cross Games Inc.</h3>
                                         <h5 class="card-title">Sep. 2016 to Jul. 2017</h5>
+                                        <p class="card-title">Fukuoka, JAPAN</p>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                 </div>
@@ -176,7 +178,7 @@
                             </div>
                         </div>
                     </div><!-- #japanCareer -->
-                    South Korea Jan. 2010 to Jan. 2013
+                    <h3>South Korea</h3>
                     <div id="koreaCareer" class="flex flex-wrap flex-jc-center row">
                         <div class="flipper col-sm-4">
                             <div class="card card-flip h-100">
@@ -184,14 +186,15 @@
                                     <div class="card-body">
                                         <i class="fa fa-search-plus fa-5x float-right"></i>
                                         <h3 class="card-title">Powertronics Co.,Ltd.</h3>
+                                         <h5 class="card-title">Aug. 2011 to Jan. 2013</h5>
+                                        <p class="card-title">Seoul, SOUTH KOREA</p>
                                         <p class="card-text">* Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013) #2</p>
                                     </div>
                                 </div>
                                 <div class="card-back bg-dark text-white">
                                     <div class="card-body">
                                         <h3 class="card-title">Factory worker at Manufacturing Team</h3>
-                                        <h5 class="card-title">Aug. 2011 to Jan. 2013</h5>
-                                         <p class="card-text">Led a team of four and managed antenna production, packaging and quality check, increased productivity about 33% by voluntarily creating a quality check manual</p>
+                                        <p class="card-text">Led a team of four and managed antenna production, packaging and quality check, increased productivity about 33% by voluntarily creating a quality check manual</p>
                                     </div>
                                 </div>
                             </div>
@@ -203,13 +206,15 @@
                                         <i class="fa fa-search fa-5x float-right"></i>
                                         <h3 class="card-title">HanShinKiJeon Co., Ltd.</h3>
                                         <h5 class="card-title">Jan. 2010 to Aug. 2011</h5>
+                                        <p class="card-title">Seoul, SOUTH KOREA</p>
                                         <p class="card-text">* Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013) #1</p>
                                     </div>
                                 </div>
-                                <div class="card-back bg-white">
+                                <div class="card-back bg-dark text-white">
                                     <div class="card-body">
                                         <h3 class="card-title">Factory worker at Manufacturing Team</h3>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <p class="card-text">Washed hard disk and printer components and checked the quality</p>
+                                        <p class="card-text">Managed the molds that produced the hard disk and printer components</p>
                                     </div>
                                 </div>
                             </div>
@@ -224,7 +229,7 @@
                                             <img src="@/assets/img/KyushuUniversity.png" class="thumbnail h-50">
                                             <i class="fa fa-search fa-5x float-right"></i>
                                             <h5 class="card-title my-3">Apr. 2013 to Mar. 2017</h5>
-                                            <p class="card-title">Fukuoka, JAPAN<img src="@/assets/img/flag/jp.svg" style="height:15px"></p>
+                                            <p class="card-title">Fukuoka, JAPAN<img src="@/assets/img/flag/jp.png" style="height:15px"></p>
                                             <p class="card-text">{{ $t("Education1-2") }}</p>
                                         </div>
                                     </div>
@@ -244,7 +249,7 @@
                                             <img src="@/assets/img/CUHK.png" class="thumbnail h-50">
                                             <i class="fa fa-search fa-5x float-right"></i>
                                             <h5 class="card-title my-3">Aug. 2016</h5>
-                                            <p class="card-title">HONG KONG</p>
+                                            <p class="card-title">HONG KONG<img src="@/assets/img/flag/hk.png" style="height:15px"></p>
                                             <p class="card-text">{{ $t("Education2-2") }}</p>
                                         </div>
                                     </div>
@@ -261,6 +266,14 @@
                 </div><!-- #content -->
             </div><!-- .main -->
             <div class="footer">
+                <a
+                    class="btn"
+                    href="mailto:jipai1121@gmail.com"
+                    subject="subject text"
+                    target="_blank"
+                    title="Hyunhee Lee e-mail"
+                    >Message Me</a
+                >
                 <div class="copyright">© 2022 Hyunhee Lee made by <a
                     class="link"
                     href="https://vuejs.org/"
