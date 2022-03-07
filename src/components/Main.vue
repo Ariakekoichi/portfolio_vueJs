@@ -5,13 +5,33 @@
             <div class="main">
                 <nav class="text-right" id="changeLanguage">
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="#" v-on:click.prevent="changeLanguage('en')">English</a></li>
-                        <li class="list-inline-item"><a href="#" v-on:click.prevent="changeLanguage('ja')">日本語</a></li>
-                        <li class="list-inline-item d-none"><a href="#" v-on:click.prevent="changeLanguage('cn')">简体中文</a></li>
-                        <li class="list-inline-item d-none"><a href="#" v-on:click.prevent="changeLanguage('tw')">繁体中文</a></li>
-                        <li class="list-inline-item d-none"><a href="#" v-on:click.prevent="changeLanguage('kr')">한국어</a></li>
+                        <li class="list-inline-item">
+                            <a href="#" v-on:click.prevent="changeLanguage('en')">
+                                <img src="@/assets/img/flag/us.svg" style="height:30px">English
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" v-on:click.prevent="changeLanguage('ja')">
+                                <img src="@/assets/img/flag/jp.svg" style="height:30px">日本語
+                            </a>
+                        </li>
+                        <li class="list-inline-item d-none">
+                            <a href="#" v-on:click.prevent="changeLanguage('cn')">
+                                <img src="@/assets/img/flag/cn.svg" style="height:30px">简体中文
+                            </a>
+                        </li>
+                        <li class="list-inline-item d-none">
+                            <a href="#" v-on:click.prevent="changeLanguage('tw')">
+                                <img src="@/assets/img/flag/tw.svg" style="height:30px">繁体中文
+                            </a>
+                        </li>
+                        <li class="list-inline-item d-none">
+                            <a href="#" v-on:click.prevent="changeLanguage('kr')">
+                                <img src="@/assets/img/flag/kr.svg" style="height:30px">한국어
+                            </a>
+                        </li>
                     </ul>
-                    ※ Some pages are not translated yet.
+                    <p class="my-3">※ Some pages are not translated yet.</p>
                 </nav>
                 <div id="home">
                 <h5 class="title">{{ $t("hyunheeLee") }}</h5>
@@ -19,7 +39,7 @@
                 <ul class="links">
                     <li>
                         <a
-                        class="link"
+                        class="btn"
                         href="https://github.com/Ariakekoichi/"
                         target="_blank"
                         title="Hyunhee Lee GitHub"
@@ -28,7 +48,7 @@
                     </li>
                     <li>
                         <a
-                        class="link"
+                        class="btn"
                         href="https://www.linkedin.com/in/hyunhee1121/"
                         target="_blank"
                         title="Hyunhee Lee LinkedIn"
@@ -37,7 +57,7 @@
                     </li>
                     <li>
                         <a
-                        class="link"
+                        class="btn"
                         href="https://calendly.com/jipai1121"
                         target="_blank"
                         title="Hyunhee Lee Schedule a call"
@@ -68,12 +88,13 @@
                                     <div class="card-body">
                                         <i class="fa fa-arrow-circle-right fa-5x float-right"></i>
                                         <h3 class="card-title">Smaregi Inc.</h3>
+                                        <h5 class="card-title">Jun. 2021 to Present</h5>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content. This one is a little because it has more text!</p>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
-                                    <div class="card-body text-primary">
-                                        <h3 class="card-title">Wow! #3</h3>
+                                    <div class="card-body">
+                                        <h3 class="card-title">Software Developer at Development department</h3>
                                         <p class="card-text">Suprise this one has content on the back!</p>
                                     </div>
                                 </div>
@@ -85,13 +106,13 @@
                                     <div class="card-body">
                                         <i class="fa fa-search fa-5x float-right"></i>
                                         <h3 class="card-title">AdInte Co. ltd.</h3>
+                                        <h5 class="card-title">Nov. 2020 to May 2021</h5>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
                                         <h3 class="card-title">Software Developer at Product Division</h3>
-                                        <h4 class="card-title">Nov. 2020 to May 2021</h4>
                                         <p class="card-text">Suprise this one has more more more more content on the back!</p>
 
                                     </div>
@@ -104,13 +125,14 @@
                                     <div class="card-body">
                                         <i class="fa fa-search fa-5x float-right"></i>
                                         <h3 class="card-title">Cyber Port Inc.</h3>
+                                        <h5 class="card-title">Aug. 2019 to Oct. 2020</h5>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Back</h3>
-                                        <p class="card-text">Suprise this one has more more more more content on the back!</p>
+                                        <h3 class="card-title">Web Developer at Development department</h3>
+                                        <p class="card-text">Developed landing page designs, e-commerce sites, an invitation-only shopping mall website and created Search Engine Optimisation (SEO) strategies</p>
 
                                     </div>
                                 </div>
@@ -122,32 +144,33 @@
                                     <div class="card-body">
                                         <i class="fa fa-search fa-5x float-right"></i>
                                         <h3 class="card-title">Livelynx Inc.</h3>
+                                        <h5 class="card-title">Sep. 2017 to May 2019</h5>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Back</h3>
-                                        <p class="card-text">Suprise this one has more more more more content on the back!</p>
+                                        <h3 class="card-title">Software Developer at System Integration Division</h3>
+                                        <p class="card-text">Developed a SDN controller system and three graph programs using modern JavaScript library(react, redux) technologies</p>
 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                         <div class="flipper col-sm-4 my-3">
+                        <div class="flipper col-sm-4 my-3">
                             <div class="card card-flip h-100">
-                                <div class="card-front text-white bg-warning">
+                                <div class="card-front text-white bg-secondary">
                                     <div class="card-body">
                                         <i class="fa fa-search fa-5x float-right"></i>
                                         <h3 class="card-title">Cross Games Inc.</h3>
+                                        <h5 class="card-title">Sep. 2016 to Jul. 2017</h5>
                                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Back</h3>
-                                        <p class="card-text">Suprise this one has more more more more content on the back!</p>
-
+                                        <h3 class="card-title">Game programmer at Development department</h3>
+                                        <p class="card-text">Developed a volleyball game for smartphones on consignment using Unity</p>
                                     </div>
                                 </div>
                             </div>
@@ -157,44 +180,83 @@
                     <div id="koreaCareer" class="flex flex-wrap flex-jc-center row">
                         <div class="flipper col-sm-4">
                             <div class="card card-flip h-100">
-                                <div class="card-front text-white bg-dark">
+                                <div class="card-front text-white bg-info">
                                     <div class="card-body">
-                                        <i class="fa fa-search fa-5x float-right"></i>
-                                        <h3 class="card-title">HanShinKiJeon Co., Ltd.</h3>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <i class="fa fa-search-plus fa-5x float-right"></i>
+                                        <h3 class="card-title">Powertronics Co.,Ltd.</h3>
+                                        <p class="card-text">* Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013) #2</p>
                                     </div>
                                 </div>
-                                <div class="card-back bg-white">Suprise this one has more more more more content on the back!
+                                <div class="card-back bg-dark text-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Back</h3>
-                                        <p class="card-text">Suprise this one has more more more more content on the back!</p>
+                                        <h3 class="card-title">Factory worker at Manufacturing Team</h3>
+                                        <h5 class="card-title">Aug. 2011 to Jan. 2013</h5>
+                                         <p class="card-text">Led a team of four and managed antenna production, packaging and quality check, increased productivity about 33% by voluntarily creating a quality check manual</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="flipper col-sm-4">
                             <div class="card card-flip h-100">
-                                <div class="card-front text-white bg-warning">
+                                <div class="card-front text-white bg-dark">
                                     <div class="card-body">
-                                        <i class="fa fa-search-plus fa-5x float-right"></i>
-                                        <h3 class="card-title">Powertronics Co.,Ltd.</h3>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <i class="fa fa-search fa-5x float-right"></i>
+                                        <h3 class="card-title">HanShinKiJeon Co., Ltd.</h3>
+                                        <h5 class="card-title">Jan. 2010 to Aug. 2011</h5>
+                                        <p class="card-text">* Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013) #1</p>
                                     </div>
                                 </div>
-                                <div class="card-back bg-dark text-white">
+                                <div class="card-back bg-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Back #2</h3>
-                                        <p class="card-text">Suprise this one has content on the back!</p>
+                                        <h3 class="card-title">Factory worker at Manufacturing Team</h3>
+                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div><!-- #koreaCareer -->
                     <h2 class="sub-title">Education</h2>
-                        <p>{{ $t("Education1-1") }}</p>
-                        <p>{{ $t("Education1-2") }}</p>
-                        <p>{{ $t("Education2-1") }}</p>
-                        <p>{{ $t("Education2-2") }}</p>
+                        <div id="Education" class="flex flex-wrap flex-jc-center row">
+                            <div class="flipper col-sm-4 my-3">
+                                <div class="card card-flip h-100">
+                                    <div class="card-front">
+                                        <div class="card-body text-center">
+                                            <img src="@/assets/img/KyushuUniversity.png" class="thumbnail h-50">
+                                            <i class="fa fa-search fa-5x float-right"></i>
+                                            <h5 class="card-title my-3">Apr. 2013 to Mar. 2017</h5>
+                                            <p class="card-title">Fukuoka, JAPAN<img src="@/assets/img/flag/jp.svg" style="height:15px"></p>
+                                            <p class="card-text">{{ $t("Education1-2") }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-back bg-white">
+                                        <div class="card-body">
+                                            <h3 class="card-title">{{ $t("Education1-1") }}</h3>
+                                            <p class="card-text">{{ $t("Education1-3") }}</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flipper col-sm-4 my-3">
+                                <div class="card card-flip h-100">
+                                    <div class="card-front">
+                                        <div class="card-body text-center">
+                                            <img src="@/assets/img/CUHK.png" class="thumbnail h-50">
+                                            <i class="fa fa-search fa-5x float-right"></i>
+                                            <h5 class="card-title my-3">Aug. 2016</h5>
+                                            <p class="card-title">HONG KONG</p>
+                                            <p class="card-text">{{ $t("Education2-2") }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-back bg-white">
+                                        <div class="card-body">
+                                            <h3 class="card-title">{{ $t("Education2-1") }}</h3>
+                                            <p class="card-text">{{ $t("Education2-3") }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- #Education -->
                     <h2 class="sub-title">Personal Activities</h2>
                 </div><!-- #content -->
             </div><!-- .main -->
@@ -314,7 +376,7 @@ export default {
     width: 100%;
 }
 .flipper {
-    min-height: 300px;
+    height: 300px;
 }
 
 /* flip card*/
