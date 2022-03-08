@@ -40,7 +40,8 @@
                 </nav>
                 <div id="home">
                 <h5 class="title">{{ $t("hyunheeLee") }}</h5>
-                <h3>{{ $t("Software Developer") }}</h3>
+                <h3 class="mb-4">{{ $t("Software Developer") }}</h3>
+                <img src="@/assets/img/MyPhoto.png">
                 <ul class="links">
                     <li>
                         <a
@@ -77,7 +78,7 @@
                         {{ $t("About") }}
                     </div>
                     <h2 class="sub-title">Career</h2>
-                    <h3>Japan</h3>
+                    <h3 style="border-bottom: 2px solid #444; width: fit-content; line-height: 45px;">Japan</h3>
                     <div id="japanCareer" class="flex flex-wrap flex-jc-center row">
                         <div class="flipper col-sm-4 my-3">
                             <div class="card card-flip h-100">
@@ -178,9 +179,9 @@
                             </div>
                         </div>
                     </div><!-- #japanCareer -->
-                    <h3>South Korea</h3>
+                    <h3 style="border-bottom: 2px solid #444; width: fit-content; line-height: 45px;">South Korea</h3>
                     <div id="koreaCareer" class="flex flex-wrap flex-jc-center row">
-                        <div class="flipper col-sm-4">
+                        <div class="flipper col-sm-4 my-3">
                             <div class="card card-flip h-100">
                                 <div class="card-front text-white bg-info">
                                     <div class="card-body">
@@ -199,7 +200,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flipper col-sm-4">
+                        <div class="flipper col-sm-4 my-3">
                             <div class="card card-flip h-100">
                                 <div class="card-front text-white bg-dark">
                                     <div class="card-body">
@@ -221,7 +222,7 @@
                         </div>
                     </div><!-- #koreaCareer -->
                     <h2 class="sub-title">Education</h2>
-                        <div id="Education" class="flex flex-wrap flex-jc-center row">
+                        <div id="education" class="flex flex-wrap flex-jc-center row">
                             <div class="flipper col-sm-4 my-3">
                                 <div class="card card-flip h-100">
                                     <div class="card-front">
@@ -229,7 +230,7 @@
                                             <img src="@/assets/img/KyushuUniversity.png" class="thumbnail h-50">
                                             <i class="fa fa-search fa-5x float-right"></i>
                                             <h5 class="card-title my-3">Apr. 2013 to Mar. 2017</h5>
-                                            <p class="card-title">Fukuoka, JAPAN<img src="@/assets/img/flag/jp.png" style="height:15px"></p>
+                                            <p class="card-title">Fukuoka, JAPAN</p>
                                             <p class="card-text">{{ $t("Education1-2") }}</p>
                                         </div>
                                     </div>
@@ -249,7 +250,7 @@
                                             <img src="@/assets/img/CUHK.png" class="thumbnail h-50">
                                             <i class="fa fa-search fa-5x float-right"></i>
                                             <h5 class="card-title my-3">Aug. 2016</h5>
-                                            <p class="card-title">HONG KONG<img src="@/assets/img/flag/hk.png" style="height:15px"></p>
+                                            <p class="card-title">HONG KONG</p>
                                             <p class="card-text">{{ $t("Education2-2") }}</p>
                                         </div>
                                     </div>
@@ -261,8 +262,70 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!-- #Education -->
+                        </div><!-- #education -->
                     <h2 class="sub-title">Personal Activities</h2>
+                        <div id="personalActivities" class="flex flex-wrap flex-jc-center row">
+                            <div class="flipper col-sm-4 my-3">
+                                <div class="card card-flip h-100">
+                                    <div class="card-front">
+                                        <div class="card-body text-center">
+                                            <img src="@/assets/img/geikoOke.png" class="thumbnail h-50">
+                                            <i class="fa fa-search fa-5x float-right"></i>
+                                            <h5 class="card-title my-3">Geiko Oke</h5>
+                                            <h5 class="card-title my-3">Apr. 2013 to Mar. 2017</h5>
+                                            <p class="card-title">Fukuoka, JAPAN</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-back bg-white">
+                                        <div class="card-body">
+                                            <h3 class="card-title">Geiko Oke</h3>
+                                            <p class="card-text">{{ $t("Education1-3") }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flipper col-sm-4 my-3">
+                                <div class="card card-flip h-100">
+                                    <div class="card-front">
+                                        <div class="card-body text-center">
+                                            <img src="@/assets/img/hongdeng.jpg" class="thumbnail h-50">
+                                            <i class="fa fa-search fa-5x float-right"></i>
+                                            <h5 class="card-title my-3">福岡中国語学友会</h5>
+                                            <h5 class="card-title my-3">2015 to 2019</h5>
+                                            <p class="card-title">Fukuoka, JAPAN</p>
+                                        </div>
+                                    </div>
+                                    <div class="card-back bg-white">
+                                        <div class="card-body">
+                                            <h3 class="card-title">福岡中国語学友会</h3>
+                                            <p class="card-text">{{ $t("Education2-3") }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flipper col-sm-4 my-3">
+                                <div class="card h-100">
+                                    <div class="card-front">
+                                        <div class="card-body text-center">
+                                            <img src="@/assets/img/CUHK.png" class="thumbnail h-50 figure">
+                                            <i class="fa fa-search fa-5x float-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- #personalActivities -->
+                    <h2 class="sub-title">Certifications</h2>
+                    <strong>日本</strong><br>
+                    <p>・基本情報技術者</p>
+                    <p>・色彩検定 2級</p>
+                    <p>・ファイナンシャルプランナー 3級（日本FP協会）</p>
+                    <strong>韓国</strong><br>
+                    <p>・電子機器技能士</p>
+                    <strong>語学その他</strong>
+                    <p>・新日本語能力試験（JLPT）1級</p>
+                    <p>・新漢語水平考試（HSK）6級</p>
+                    <p>・TOEIC 825点</p>
+                    <p>・MOS Excel 2013 Specialist</p>
                 </div><!-- #content -->
             </div><!-- .main -->
             <div class="footer">
@@ -274,7 +337,7 @@
                     title="Hyunhee Lee e-mail"
                     >Message Me</a
                 >
-                <div class="copyright">© 2022 Hyunhee Lee made by <a
+                <div class="copyright mt-5 mb-5">© 2022 Hyunhee Lee made by <a
                     class="link"
                     href="https://vuejs.org/"
                     target="_blank"
@@ -390,6 +453,15 @@ export default {
 }
 .flipper {
     height: 300px;
+}
+
+.figure:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s,-webkit-transform .5s;
 }
 
 /* flip card*/
