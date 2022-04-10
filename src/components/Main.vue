@@ -36,7 +36,7 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="my-3">※ Some pages are not translated yet.</p>
+                    <p class="my-3">※ {{ $t("NotTranslated") }}</p>
                 </nav>
                 <div id="home">
                 <h5 class="title">{{ $t("hyunheeLee") }}</h5>
@@ -78,23 +78,25 @@
                         {{ $t("About") }}
                     </div>
                     <h2 class="sub-title">Career</h2>
-                    <h3 style="border-bottom: 2px solid #444; width: fit-content; line-height: 45px;">Japan</h3>
+                    <h3 class="mb-3">Japan</h3>
+                    {{ $t("About_Japan") }}
                     <div id="japanCareer" class="flex flex-wrap flex-jc-center row">
                         <div class="flipper col-sm-4 my-3">
                             <div class="card card-flip h-100">
                                 <div class="card-front text-white bg-primary">
                                     <div class="card-body">
                                         <i class="fa fa-arrow-circle-right fa-5x float-right"></i>
-                                        <h3 class="card-title">Smaregi Inc.</h3>
-                                        <h5 class="card-title">Jun. 2021 to Present</h5>
+                                        <h3 class="card-title">{{ $t("Smaregi Inc.") }}</h3>
+                                        <h5 class="card-title">{{ $t("Jun. 2021 to Present") }}</h5>
                                         <p class="card-title">Osaka, JAPAN</p>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content. This one is a little because it has more text!</p>
+                                        <h5 class="card-text">{{ $t("Smaregi-1") }}</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Software Developer at Development department</h3>
-                                        <p class="card-text">Suprise this one has content on the back!</p>
+                                        <h4 class="card-text"><a href="https://smaregi.jp/">https://smaregi.jp/</a></h4>
+                                        <p class="card-text mt-2">・{{ $t("Growth") }}</p>
+                                        <p class="card-text">・{{ $t("Smaregi-2") }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -104,17 +106,19 @@
                                 <div class="card-front text-white bg-dark">
                                     <div class="card-body">
                                         <i class="fa fa-search fa-5x float-right"></i>
-                                        <h3 class="card-title">AdInte Co. ltd.</h3>
-                                        <h5 class="card-title">Nov. 2020 to May 2021</h5>
+                                        <h3 class="card-title">{{ $t("AdInte Co. ltd.") }}</h3>
+                                        <h5 class="card-title">{{ $t("Nov. 2020 to May 2021") }}</h5>
                                         <p class="card-title">Kyoto, JAPAN</p>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <h5 class="card-text">Software Developer at Product Division</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Software Developer at Product Division</h3>
-                                        <p class="card-text">Suprise this one has more more more more content on the back!</p>
-
+                                        <h4 class="card-title"><a href="https://adinte.co.jp/">https://adinte.co.jp/</a></h4>
+                                        <h5 class="card-text mt-2">A. Yarn Trade System</h5>
+                                        <p class="card-text">・Developed a yarn trade system that supports multiple languages: Japanese, Mandarin Chinese, and English using codeigniter PHP framework</p>
+                                        <h5 class="card-text mt-2">B. Advertisement space management tool</h5>
+                                        <p class="card-text">・Developed a tool that manages each store’s advertisement space information that used to be managed in Excel</p>
                                     </div>
                                 </div>
                             </div>
@@ -127,14 +131,13 @@
                                         <h3 class="card-title">Cyber Port Inc.</h3>
                                         <h5 class="card-title">Aug. 2019 to Oct. 2020</h5>
                                         <p class="card-title">Osaka, JAPAN</p>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <h5 class="card-text">Web Developer at Development department</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Web Developer at Development department</h3>
-                                        <p class="card-text">Developed landing page designs, e-commerce sites, an invitation-only shopping mall website and created Search Engine Optimisation (SEO) strategies</p>
-
+                                        <h4 class="card-text"><a href="https://cb-port.com/">https://cb-port.com/</a></h4>
+                                        <p class="card-text mt-2">Developed landing page designs, e-commerce sites, an invitation-only shopping mall website and created Search Engine Optimisation (SEO) strategies</p>
                                     </div>
                                 </div>
                             </div>
@@ -147,14 +150,13 @@
                                         <h3 class="card-title">Livelynx Inc.</h3>
                                         <h5 class="card-title">Sep. 2017 to May 2019</h5>
                                         <p class="card-title">Fukuoka, JAPAN</p>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <h5 class="card-text">Software Developer at System Integration Division</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Software Developer at System Integration Division</h3>
-                                        <p class="card-text">Developed a SDN controller system and three graph programs using modern JavaScript library(react, redux) technologies</p>
-
+                                        <h4 class="card-text"><a href="https://livelynx.co.jp/">https://livelynx.co.jp/</a></h4>
+                                        <p class="card-text mt-2">Developed a SDN controller system and three graph programs using modern JavaScript library(react, redux) technologies</p>
                                     </div>
                                 </div>
                             </div>
@@ -164,22 +166,24 @@
                                 <div class="card-front text-white bg-secondary">
                                     <div class="card-body">
                                         <i class="fa fa-search fa-5x float-right"></i>
-                                        <h3 class="card-title">Cross Games Inc.</h3>
-                                        <h5 class="card-title">Sep. 2016 to Jul. 2017</h5>
-                                        <p class="card-title">Fukuoka, JAPAN</p>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <h4 class="card-title">Cross Games Inc.</h4>
+                                        <h5 class="card-text">Sep. 2016 to Mar. 2017 Student Internship</h5>
+                                        <h5 class="card-text">Apr. 2016 to Jul. 2017 Game Programmer</h5>
+                                        <p class="card-title mt-2">Fukuoka, JAPAN</p>
+                                        <h5 class="card-text">Game programmer at Development department</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Game programmer at Development department</h3>
-                                        <p class="card-text">Developed a volleyball game for smartphones on consignment using Unity</p>
+                                        <h4 class="card-text"><a href="https://www.cross-games.jp/">https://www.cross-games.jp/</a></h4>
+                                        <p class="card-text mt-2">Developed a volleyball game for smartphones on consignment using Unity</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div><!-- #japanCareer -->
-                    <h3 style="border-bottom: 2px solid #444; width: fit-content; line-height: 45px;">South Korea</h3>
+                    <h3 class="mb-3">South Korea</h3>
+                    {{ $t("About_Korea") }}
                     <div id="koreaCareer" class="flex flex-wrap flex-jc-center row">
                         <div class="flipper col-sm-4 my-3">
                             <div class="card card-flip h-100">
@@ -187,15 +191,17 @@
                                     <div class="card-body">
                                         <i class="fa fa-search-plus fa-5x float-right"></i>
                                         <h3 class="card-title">Powertronics Co.,Ltd.</h3>
-                                         <h5 class="card-title">Aug. 2011 to Jan. 2013</h5>
+                                        <h5 class="card-title">Aug. 2011 to Jan. 2013</h5>
                                         <p class="card-title">Seoul, SOUTH KOREA</p>
-                                        <p class="card-text">* Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013) #2</p>
+                                        <h5 class="card-text">Factory worker at Manufacturing Team</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-dark text-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Factory worker at Manufacturing Team</h3>
-                                        <p class="card-text">Led a team of four and managed antenna production, packaging and quality check, increased productivity about 33% by voluntarily creating a quality check manual</p>
+                                        <h4 class="card-title"><a href="http://www.powertro.com/">http://www.powertro.com/</a></h4>
+                                        <p class="card-text mt-2">・Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013)</p>
+                                        <p class="card-text">・Led a team of four and managed antenna production, packaging and quality check, increased productivity about 33% by voluntarily creating a quality check manual</p>
+                                        <p class="card-text">・Awarded as the best staff of 2012</p>
                                     </div>
                                 </div>
                             </div>
@@ -208,14 +214,15 @@
                                         <h3 class="card-title">HanShinKiJeon Co., Ltd.</h3>
                                         <h5 class="card-title">Jan. 2010 to Aug. 2011</h5>
                                         <p class="card-title">Seoul, SOUTH KOREA</p>
-                                        <p class="card-text">* Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013) #1</p>
+                                        <h5 class="card-text">Factory worker at Manufacturing Team</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-dark text-white">
                                     <div class="card-body">
-                                        <h3 class="card-title">Factory worker at Manufacturing Team</h3>
-                                        <p class="card-text">Washed hard disk and printer components and checked the quality</p>
-                                        <p class="card-text">Managed the molds that produced the hard disk and printer components</p>
+                                        <h4 class="card-title"><a href="http://www.hskj.co.kr/xe/">http://www.hskj.co.kr/xe/</a></h4>
+                                        <p class="card-text mt-2">・Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013)</p>
+                                        <p class="card-text">・Inspected parts of hard disk and printer</p>
+                                        <p class="card-text">・Managed the molds that produced the hard disk and printer components</p>
                                     </div>
                                 </div>
                             </div>
@@ -231,13 +238,13 @@
                                             <i class="fa fa-search fa-5x float-right"></i>
                                             <h5 class="card-title my-3">Apr. 2013 to Mar. 2017</h5>
                                             <p class="card-title">Fukuoka, JAPAN</p>
-                                            <p class="card-text">{{ $t("Education1-2") }}</p>
+                                            <p class="card-text">{{ $t("QU1-2") }}</p>
                                         </div>
                                     </div>
                                     <div class="card-back bg-white">
                                         <div class="card-body">
-                                            <h3 class="card-title">{{ $t("Education1-1") }}</h3>
-                                            <p class="card-text">{{ $t("Education1-3") }}</p>
+                                            <h3 class="card-title">{{ $t("QU1-1") }}</h3>
+                                            <p class="card-text">{{ $t("QU2-1") }}</p>
 
                                         </div>
                                     </div>
@@ -256,7 +263,7 @@
                                     </div>
                                     <div class="card-back bg-white">
                                         <div class="card-body">
-                                            <h3 class="card-title">{{ $t("Education2-1") }}</h3>
+                                            <h3 class="card-title">{{ $t("CHUK1-1") }}</h3>
                                             <p class="card-text">{{ $t("Education2-3") }}</p>
                                         </div>
                                     </div>
@@ -271,15 +278,17 @@
                                         <div class="card-body text-center">
                                             <img src="@/assets/img/geikoOke.png" class="thumbnail h-50">
                                             <i class="fa fa-search fa-5x float-right"></i>
-                                            <h5 class="card-title my-3">Geiko Oke</h5>
-                                            <h5 class="card-title my-3">Apr. 2013 to Mar. 2017</h5>
+                                            <h5 class="card-title my-3">{{ $t("GeikoOke") }}</h5>
+                                            <h5 class="card-title my-3">{{ $t("GeikoOkePeriod") }}</h5>
                                             <p class="card-title">Fukuoka, JAPAN</p>
                                         </div>
                                     </div>
                                     <div class="card-back bg-white">
                                         <div class="card-body">
-                                            <h3 class="card-title">Geiko Oke</h3>
-                                            <p class="card-text">{{ $t("Education1-3") }}</p>
+                                            <h3 class="card-title">{{ $t("GeikoOke") }}</h3>
+                                            <p class="card-text">{{ $t("GeikoOkeDescription-1") }}</p>
+                                            <p class="card-text">{{ $t("GeikoOkeDescription-2") }}</p>
+                                            <p class="card-text">{{ $t("GeikoOkeDescription-3") }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -290,42 +299,52 @@
                                         <div class="card-body text-center">
                                             <img src="@/assets/img/hongdeng.jpg" class="thumbnail h-50">
                                             <i class="fa fa-search fa-5x float-right"></i>
-                                            <h5 class="card-title my-3">福岡中国語学友会</h5>
-                                            <h5 class="card-title my-3">2015 to 2019</h5>
+                                            <h5 class="card-title my-3">{{ $t("福岡中国語学友会") }}</h5>
+                                            <h5 class="card-title my-3">{{ $t("2015 to 2019") }}</h5>
                                             <p class="card-title">Fukuoka, JAPAN</p>
                                         </div>
                                     </div>
                                     <div class="card-back bg-white">
                                         <div class="card-body">
-                                            <h3 class="card-title">福岡中国語学友会</h3>
-                                            <p class="card-text">{{ $t("Education2-3") }}</p>
+                                            <h3 class="card-title">{{ $t("福岡中国語学友会") }}</h3>
+                                            <p class="card-text">{{ $t("福岡中国語学友会-1") }}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="flipper col-sm-4 my-3">
-                                <div class="card h-100">
+                                <div class="card card-flip h-100">
                                     <div class="card-front">
                                         <div class="card-body text-center">
-                                            <img src="@/assets/img/CUHK.png" class="thumbnail h-50 figure">
+                                            <img src="@/assets/img/forestWitch.png" class="thumbnail">
                                             <i class="fa fa-search fa-5x float-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-back bg-white">
+                                        <div class="card-body">
+                                            <h3 class="card-title">{{ $t("Forest Witch") }}</h3>
+                                            <p class="card-text">{{ $t("Forest Witch Description-1") }}</p>
+                                            <p class="card-text">{{ $t("Forest Witch Description-2") }}</p>
+                                            <p class="card-text">{{ $t("Forest Witch Description-3") }}</p>
+                                            <p class="card-text">{{ $t("Forest Witch Description-4") }}</p>
+                                            <h3 class="card-title mt-2">{{ $t("Forest Witch Download") }}</h3>
+                                            <p class="card-text"><a href="https://drive.google.com/file/d/18kXaHyKOn-Kr_TXmAltx72Xccr1h2YI5/view?usp=sharing">https://drive.google.com/file/d/18kXaHyKOn-Kr_TXmAltx72Xccr1h2YI5/view?usp=sharing</a></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div><!-- #personalActivities -->
-                    <h2 class="sub-title">Certifications</h2>
-                    <strong>日本</strong><br>
-                    <p>・基本情報技術者</p>
-                    <p>・色彩検定 2級</p>
-                    <p>・ファイナンシャルプランナー 3級（日本FP協会）</p>
-                    <strong>韓国</strong><br>
-                    <p>・電子機器技能士</p>
-                    <strong>語学その他</strong>
-                    <p>・新日本語能力試験（JLPT）1級</p>
-                    <p>・新漢語水平考試（HSK）6級</p>
-                    <p>・TOEIC 825点</p>
-                    <p>・MOS Excel 2013 Specialist</p>
+                    <h2 class="sub-title">{{ $t("Certifications") }}</h2>
+                    <h5 class="my-2">Japan</h5>
+                    <p>・{{ $t("基本情報技術者") }}</p>
+                    <p>・{{ $t("色彩検定 2級") }}</p>
+                    <p>・{{ $t("ファイナンシャルプランナー 3級") }}</p>
+                    <h5 class="my-2">South Korea</h5>
+                    <p>・{{ $t("전자기기기능사") }}</p>
+                    <h5 class="my-2">Languages</h5>
+                    <p>・{{ $t("JLPT Level 1") }}</p>
+                    <p>・{{ $t("HSK Level 6") }}</p>
+                    <p>・TOEIC 825</p>
                 </div><!-- #content -->
             </div><!-- .main -->
             <div class="footer">
@@ -405,7 +424,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
+    width: 150px;
     height: 40px;
     background-color: #2f2f2f;
     border-radius: 8px;
