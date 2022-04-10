@@ -3,32 +3,79 @@
     "Software Developer": "Software Developer",
     "NotTranslated": "Some pages are not translated yet.",
     "About": "I am Hyunhee Lee from Seoul, Korea. Engaging an IT Engineer.",
-    "About_Japan": "Worked as an IT Engineer from graduation from University in 2017 to the present;",
+
+    "About_Japan": "Worked as an IT Engineer from graduation from University in 2017 to the present",
+
     "Smaregi Inc.": "Smaregi Inc.",
     "Growth": "A Tokyo Stock Exchange Growth market listed company",
     "Jun. 2021 to Present": "Jun. 2021 to Present",
     "Smaregi-1": "Software Developer at Development department",
     "Smaregi-2": "Developed in-house tool using modern PHP frameworks",
+
+    "AdInte Co. ltd.": "AdInte Co. ltd.",
+    "Nov. 2020 to May 2021": "Nov. 2020 to May 2021",
+    "AdInte-1": "Software Developer at Product Division",
+    "AdInte-2": "A. Yarn Trade System",
+    "AdInte-3": "Developed a yarn trade system that supports multiple languages: Japanese, Mandarin Chinese, and English using codeigniter PHP framework",
+    "AdInte-4": "B. Advertisement space management tool",
+    "AdInte-5": "Developed a tool that manages each store’s advertisement space information that used to be managed in Excel",
+
+    "Cyber Port Inc.": "Cyber Port Inc.",
+    "Aug. 2019 to Oct. 2020": "Aug. 2019 to Oct. 2020",
+    "CyberPort-1": "Web Developer at Development department",
+    "CyberPort-2": "Developed landing page designs, e-commerce sites, an invitation-only shopping mall website and created Search Engine Optimisation (SEO) strategies",
+
+    "Livelynx Inc.": "Livelynx Inc.",
+    "Sep. 2017 to May 2019": "Sep. 2017 to May 2019",
+    "Livelynx-1": "Software Developer at System Integration Division",
+    "Livelynx-2": "Developed a SDN controller system and three graph programs using modern JavaScript library(react, redux) technologies",
+
+    "Cross Games Inc.": "Cross Games Inc.",
+    "CrossGames-1": "Sep. 2016 to Mar. 2017 Student Internship",
+    "CrossGames-2": "Apr. 2017 to Jul. 2017 Game Programmer",
+    "CrossGames-3": "Game programmer at Development department",
+    "CrossGames-4": "Developed a volleyball game for smartphones on consignment using Unity",
+
     "About_Korea": "Prior to entering University in 2013, I was engaged in the military service for three years as a factory worker from January 2010 to January 2013.",
+
+    "Powertronics Co.,Ltd.": "Powertronics Co.,Ltd.",
+    "Aug. 2011 to Jan. 2013": "Aug. 2011 to Jan. 2013",
+    "Powertronics-1": "Factory worker at Manufacturing Team",
+    "Powertronics-2": "Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013)",
+    "Powertronics-3": "Led a team of four and managed antenna production, packaging and quality check, increased productivity about 33% by voluntarily creating a quality check manual",
+    "Powertronics-4": "Awarded as the best staff of 2012",
+
+    "HanShinKiJeon Co., Ltd.": "HanShinKiJeon Co., Ltd.",
+    "Jan. 2010 to Aug. 2011": "Jan. 2010 to Aug. 2011",
+    "HanShinKiJeon-1": "Factory worker at Manufacturing Team",
+    "HanShinKiJeon-2": "Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013)",
+    "HanShinKiJeon-3": "Inspected parts of hard disk and printer",
+    "HanShinKiJeon-4": "Managed the molds that produced the hard disk and printer components",
+
     "QU1-1": "Kyushu University",
     "QU1-2": "Bachelor of Design, Art and Information Design",
-    "QU2-1": "プログラミングとデザインの勉強をしました。",
+    "QU2-1": "I took programming courses mainly at the Department of Art and Information Design, Kyushu University.",
+
     "CHUK1-1": "The Chinese University of Hong Kong",
     "Education2-2": "International Summer school (Mandarin language)",
-    "Education2-3": "1か月間、協定校だった香港中文大学で中国語の短期留学を経験しました。中華文化圏への視野が広がりました。",
+    "Education2-3": "For a month, I had a short-term Chinese language study abroad experience at the Chinese University of Hong Kong, which was our partner university. It broadened my perspective on the Chinese cultural sphere.",
+
     "GeikoOke": "Geiko Oke",
     "GeikoOkePeriod": "Apr. 2013 to Mar. 2017",
     "GeikoOkeDescription-1": "大学時代部活動として九州大学芸術工学部フィルハーモニー管弦楽団のクラリネットパートを担当しました。",
     "GeikoOkeDescription-2": "4年間在籍の間、3回の定期演奏会と4回の学内演奏会、そして1回の合同オーケストラの演奏会に参加しました。",
     "GeikoOkeDescription-3": "2015年はクラリネットパートリーダーを務めました。",
+
     "福岡中国語学友会": "福岡中国語学友会",
     "2015 to 2019": "2015 to 2019",
     "福岡中国語学友会-1": "Facebookグループ「福岡中国語学友会」にて会長と2人で中国語勉強会の開催人を務めました。たくさんの中華文化圏の方達と交流できる貴重な経験になりました。",
+
     "Forest Witch Description-1": "[プロジェクト期間] 2015年12月～2016年1月（2ヶ月）",
     "Forest Witch Description-2": "[言語] 日本語・韓国語・中国語（繁体字）",
     "Forest Witch Description-3": "[説明] 大学時代4人のチームでゲームを作り上げ、第9回福岡ゲームコンテストに出品したアクションゲームです。",
-    "Forest Witch Description-4": "[プロジェクト期間] 手に汗を握る迫真力のあるアクションゲームで、周りの方にから好評を得ていました。",
+    "Forest Witch Description-4": "手に汗を握る迫真力のあるアクションゲームで、周りの方にから好評を得ていました。",
     "Forest Witch Download": "Download URL（Google Drive）",
+
     "基本情報技術者": "Fundamental Information Technology Engineer Examination",
     "色彩検定 2級": "Color Cordination The Second Level`",
     "ファイナンシャルプランナー 3級": "3rd grade Certified Skilled Professional of Financial Planning",

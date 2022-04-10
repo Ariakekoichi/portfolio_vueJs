@@ -1,15 +1,69 @@
 {
     "hyunheeLee": "李 贤熹",
     "Software Developer": "程序员",
-    "NotTranslated": "Some pages are not translated yet.",
+    "NotTranslated": "有些页面还没有翻译。",
     "About": "我叫李贤熹，是来自韩国首尔的一名程序员。",
-    "About_Japan": "Worked as an IT Engineer from graduation from University in 2017 to the present;",
+
+    "About_Japan": "Worked as an IT Engineer from graduation from University in 2017 to the present",
+
+    "Smaregi Inc.": "Smaregi Inc.",
+    "Growth": "도쿄증시 그로스시장 상장 기업",
+    "Jun. 2021 to Present": "2021.06 ～ 현재",
+    "Smaregi-1": "개발부",
+    "Smaregi-2": "모던한 PHP프레임워크를 사용하여 사내 툴 개발중",
+
+    "AdInte Co. ltd.": "AdInte Co. ltd.",
+    "Nov. 2020 to May 2021": "2020.11 ～ 2021.05",
+    "AdInte-1": "Software Developer at Product Division",
+    "AdInte-2": "A. Yarn Trade System",
+    "AdInte-3": "Developed a yarn trade system that supports multiple languages: Japanese, Mandarin Chinese, and English using codeigniter PHP framework",
+    "AdInte-4": "B. Advertisement space management tool",
+    "AdInte-5": "Developed a tool that manages each store’s advertisement space information that used to be managed in Excel",
+
+    "Cyber Port Inc.": "Cyber Port Inc.",
+    "Aug. 2019 to Oct. 2020": "2019.08 ～ 2020.10",
+    "CyberPort-1": "Web Developer at Development department",
+    "CyberPort-2": "Developed landing page designs, e-commerce sites, an invitation-only shopping mall website and created Search Engine Optimisation (SEO) strategies",
+
+    "Livelynx Inc.": "Livelynx Inc.",
+    "Sep. 2017 to May 2019": "Sep. 2017 to May 2019",
+    "Livelynx-1": "Software Developer at System Integration Division",
+    "Livelynx-2": "Developed a SDN controller system and three graph programs using modern JavaScript library(react, redux) technologies",
+
+    "Cross Games Inc.": "Cross Games Inc.",
+    "CrossGames-1": "Sep. 2016 to Mar. 2017 Student Internship",
+    "CrossGames-2": "Apr. 2017 to Jul. 2017 Game Programmer",
+    "CrossGames-3": "Game programmer at Development department",
+    "CrossGames-4": "Developed a volleyball game for smartphones on consignment using Unity",
+
     "About_Korea": "Prior to entering University in 2013, I was engaged in the military service for three years as a factory worker from January 2010 to January 2013.",
+
+    "Powertronics Co.,Ltd.": "주식회사 파워트로닉스",
+    "Aug. 2011 to Jan. 2013": "2011年8月 ～ 2013年1月",
+    "Powertronics-1": "생산부",
+    "Powertronics-2": "Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013)",
+    "Powertronics-3": "Led a team of four and managed antenna production, packaging and quality check, increased productivity about 33% by voluntarily creating a quality check manual",
+    "Powertronics-4": "Awarded as the best staff of 2012",
+
+    "HanShinKiJeon Co., Ltd.": "주식회사 한신기전",
+    "Jan. 2010 to Aug. 2011": "2010年1月 ～ 2011年8月",
+    "HanShinKiJeon-1": "생산부 크린룸소속",
+    "HanShinKiJeon-2": "Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013)",
+    "HanShinKiJeon-3": "Inspected parts of hard disk and printer",
+    "HanShinKiJeon-4": "Managed the molds that produced the hard disk and printer components",
+
     "QU1-1": "九州大学",
     "QU1-2": "艺术工学部 艺术情报设计学科 学士",
     "QU2-1": "プログラミングとデザインの勉強をしました。",
     "CHUK1-1": "香港中文大学",
     "Education2-2": "国际暑期课程(中文课程)",
     "Education2-3": "1か月間、協定校だった香港中文大学で中国語の短期留学を経験しました。",
-    "福岡中国語学友会": "福岡中国語学友会"
+    "福岡中国語学友会": "福岡中国語学友会",
+
+    "基本情報技術者": "Fundamental Information Technology Engineer Examination",
+    "色彩検定 2級": "Color Cordination The Second Level`",
+    "ファイナンシャルプランナー 3級": "3rd grade Certified Skilled Professional of Financial Planning",
+    "전자기기기능사": "Craftsman Electronic Apparatus",
+    "JLPT Level 1": "日本语能力测试(JLPT) 1级",
+    "HSK Level 6": "汉语水平考试(HSK) 6级"
 }

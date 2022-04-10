@@ -3,7 +3,7 @@
         <img class="background" src="@/assets/img/background.png" />
         <div class="container">
             <div class="main">
-                <nav class="text-right" id="changeLanguage">
+                <nav class="text-right changeLanguage">
                     <ul class="list-inline">
                         <li class="list-inline-item text-center">
                             <a href="#" v-on:click.prevent="changeLanguage('en')">
@@ -109,16 +109,16 @@
                                         <h3 class="card-title">{{ $t("AdInte Co. ltd.") }}</h3>
                                         <h5 class="card-title">{{ $t("Nov. 2020 to May 2021") }}</h5>
                                         <p class="card-title">Kyoto, JAPAN</p>
-                                        <h5 class="card-text">Software Developer at Product Division</h5>
+                                        <h5 class="card-text">{{ $t("AdInte-1") }}</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
                                         <h4 class="card-title"><a href="https://adinte.co.jp/">https://adinte.co.jp/</a></h4>
-                                        <h5 class="card-text mt-2">A. Yarn Trade System</h5>
-                                        <p class="card-text">・Developed a yarn trade system that supports multiple languages: Japanese, Mandarin Chinese, and English using codeigniter PHP framework</p>
-                                        <h5 class="card-text mt-2">B. Advertisement space management tool</h5>
-                                        <p class="card-text">・Developed a tool that manages each store’s advertisement space information that used to be managed in Excel</p>
+                                        <h5 class="card-text mt-2">{{ $t("AdInte-2") }}</h5>
+                                        <p class="card-text">・{{ $t("AdInte-3") }}</p>
+                                        <h5 class="card-text mt-2">{{ $t("AdInte-4") }}</h5>
+                                        <p class="card-text">・{{ $t("AdInte-5") }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -128,16 +128,16 @@
                                 <div class="card-front text-white bg-danger">
                                     <div class="card-body">
                                         <i class="fa fa-search fa-5x float-right"></i>
-                                        <h3 class="card-title">Cyber Port Inc.</h3>
-                                        <h5 class="card-title">Aug. 2019 to Oct. 2020</h5>
+                                        <h3 class="card-title">{{ $t("Cyber Port Inc.") }}</h3>
+                                        <h5 class="card-title">{{ $t("Aug. 2019 to Oct. 2020") }}</h5>
                                         <p class="card-title">Osaka, JAPAN</p>
-                                        <h5 class="card-text">Web Developer at Development department</h5>
+                                        <h5 class="card-text">{{ $t("CyberPort-1") }}</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
                                         <h4 class="card-text"><a href="https://cb-port.com/">https://cb-port.com/</a></h4>
-                                        <p class="card-text mt-2">Developed landing page designs, e-commerce sites, an invitation-only shopping mall website and created Search Engine Optimisation (SEO) strategies</p>
+                                        <p class="card-text mt-2">{{ $t("CyberPort-2") }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -147,16 +147,16 @@
                                 <div class="card-front text-white bg-success">
                                     <div class="card-body">
                                         <i class="fa fa-search fa-5x float-right"></i>
-                                        <h3 class="card-title">Livelynx Inc.</h3>
-                                        <h5 class="card-title">Sep. 2017 to May 2019</h5>
+                                        <h3 class="card-title">{{ $t("Livelynx Inc.") }}</h3>
+                                        <h5 class="card-title">{{ $t("Sep. 2017 to May 2019") }}</h5>
                                         <p class="card-title">Fukuoka, JAPAN</p>
-                                        <h5 class="card-text">Software Developer at System Integration Division</h5>
+                                        <h5 class="card-text">{{ $t("Livelynx-1") }}</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
                                         <h4 class="card-text"><a href="https://livelynx.co.jp/">https://livelynx.co.jp/</a></h4>
-                                        <p class="card-text mt-2">Developed a SDN controller system and three graph programs using modern JavaScript library(react, redux) technologies</p>
+                                        <p class="card-text mt-2">{{ $t("Livelynx-2") }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -166,17 +166,17 @@
                                 <div class="card-front text-white bg-secondary">
                                     <div class="card-body">
                                         <i class="fa fa-search fa-5x float-right"></i>
-                                        <h4 class="card-title">Cross Games Inc.</h4>
-                                        <h5 class="card-text">Sep. 2016 to Mar. 2017 Student Internship</h5>
-                                        <h5 class="card-text">Apr. 2016 to Jul. 2017 Game Programmer</h5>
+                                        <h4 class="card-title">{{ $t("Cross Games Inc.") }}</h4>
+                                        <h5 class="card-text">{{ $t("CrossGames-1") }}</h5>
+                                        <h5 class="card-text">{{ $t("CrossGames-2") }}</h5>
                                         <p class="card-title mt-2">Fukuoka, JAPAN</p>
-                                        <h5 class="card-text">Game programmer at Development department</h5>
+                                        <h5 class="card-text">{{ $t("CrossGames-3") }}</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-white">
                                     <div class="card-body">
                                         <h4 class="card-text"><a href="https://www.cross-games.jp/">https://www.cross-games.jp/</a></h4>
-                                        <p class="card-text mt-2">Developed a volleyball game for smartphones on consignment using Unity</p>
+                                        <p class="card-text mt-2">{{ $t("CrossGames-4") }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -190,18 +190,18 @@
                                 <div class="card-front text-white bg-info">
                                     <div class="card-body">
                                         <i class="fa fa-search-plus fa-5x float-right"></i>
-                                        <h3 class="card-title">Powertronics Co.,Ltd.</h3>
-                                        <h5 class="card-title">Aug. 2011 to Jan. 2013</h5>
+                                        <h3 class="card-title">{{ $t("Powertronics Co.,Ltd.") }}</h3>
+                                        <h5 class="card-title">{{ $t("Aug. 2011 to Jan. 2013") }}</h5>
                                         <p class="card-title">Seoul, SOUTH KOREA</p>
-                                        <h5 class="card-text">Factory worker at Manufacturing Team</h5>
+                                        <h5 class="card-text">{{ $t("Powertronics-1") }}</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-dark text-white">
                                     <div class="card-body">
                                         <h4 class="card-title"><a href="http://www.powertro.com/">http://www.powertro.com/</a></h4>
-                                        <p class="card-text mt-2">・Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013)</p>
-                                        <p class="card-text">・Led a team of four and managed antenna production, packaging and quality check, increased productivity about 33% by voluntarily creating a quality check manual</p>
-                                        <p class="card-text">・Awarded as the best staff of 2012</p>
+                                        <p class="card-text mt-2">・{{ $t("Powertronics-2") }}</p>
+                                        <p class="card-text">・{{ $t("Powertronics-3") }}</p>
+                                        <p class="card-text">・{{ $t("Powertronics-4") }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -211,18 +211,18 @@
                                 <div class="card-front text-white bg-dark">
                                     <div class="card-body">
                                         <i class="fa fa-search fa-5x float-right"></i>
-                                        <h3 class="card-title">HanShinKiJeon Co., Ltd.</h3>
-                                        <h5 class="card-title">Jan. 2010 to Aug. 2011</h5>
+                                        <h3 class="card-title">{{ $t("HanShinKiJeon Co., Ltd.") }}</h3>
+                                        <h5 class="card-title">{{ $t("Jan. 2010 to Aug. 2011") }}</h5>
                                         <p class="card-title">Seoul, SOUTH KOREA</p>
-                                        <h5 class="card-text">Factory worker at Manufacturing Team</h5>
+                                        <h5 class="card-text">{{ $t("HanShinKiJeon-1") }}</h5>
                                     </div>
                                 </div>
                                 <div class="card-back bg-dark text-white">
                                     <div class="card-body">
                                         <h4 class="card-title"><a href="http://www.hskj.co.kr/xe/">http://www.hskj.co.kr/xe/</a></h4>
-                                        <p class="card-text mt-2">・Worked as a factory worker as part of military service (Mar. 2010 to Jan. 2013)</p>
-                                        <p class="card-text">・Inspected parts of hard disk and printer</p>
-                                        <p class="card-text">・Managed the molds that produced the hard disk and printer components</p>
+                                        <p class="card-text mt-2">・{{ $t("HanShinKiJeon-2") }}</p>
+                                        <p class="card-text">・{{ $t("HanShinKiJeon-3") }}</p>
+                                        <p class="card-text">・{{ $t("HanShinKiJeon-4") }}</p>
                                     </div>
                                 </div>
                             </div>
@@ -354,15 +354,47 @@
                     subject="subject text"
                     target="_blank"
                     title="Hyunhee Lee e-mail"
-                    >Message Me</a
-                >
-                <div class="copyright mt-5 mb-5">© 2022 Hyunhee Lee made by <a
+                    >Message Me</a>
+                <nav class="text-center changeLanguage mt-5">
+                    <ul class="list-inline">
+                        <li class="list-inline-item text-center">
+                            <a href="#" v-on:click.prevent="changeLanguage('en')">
+                                <img src="@/assets/img/flag/us.png" style="height:30px">
+                                <p>English</p>
+                            </a>
+                        </li>
+                        <li class="list-inline-item text-center">
+                            <a href="#" v-on:click.prevent="changeLanguage('ja')">
+                                <img src="@/assets/img/flag/jp.png" style="height:30px">
+                                <p>日本語</p>
+                            </a>
+                        </li>
+                        <li class="list-inline-item text-center"><!-- d-none -->
+                            <a href="#" v-on:click.prevent="changeLanguage('cn')">
+                                <img src="@/assets/img/flag/cn.png" style="height:30px">
+                                <p>简体中文</p>
+                            </a>
+                        </li>
+                        <li class="list-inline-item text-center"><!-- d-none -->
+                            <a href="#" v-on:click.prevent="changeLanguage('tw')">
+                                <img src="@/assets/img/flag/tw.png" style="height:30px">
+                                <p>繁体中文</p>
+                            </a>
+                        </li>
+                        <li class="list-inline-item text-center"><!-- d-none -->
+                            <a href="#" v-on:click.prevent="changeLanguage('kr')">
+                                <img src="@/assets/img/flag/kr.png" style="height:30px">
+                                <p>한국어</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright mt-2 mb-5">© 2022 Hyunhee Lee made by <a
                     class="link"
                     href="https://vuejs.org/"
                     target="_blank"
                     title="Vue.js"
-                    >Vue.js</a
-                    >
+                    >Vue.js</a>
                 </div>
             </div><!-- .footer -->
         </div>
@@ -467,7 +499,7 @@ export default {
     text-align: center;
     align-items: center;
 }
-#changeLanguage {
+.changeLanguage {
     width: 100%;
 }
 .flipper {
