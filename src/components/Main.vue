@@ -17,19 +17,19 @@
                                 <p>日本語</p>
                             </a>
                         </li>
-                        <li class="list-inline-item text-center"><!-- d-none -->
+                        <li class="list-inline-item text-center">
                             <a href="#" v-on:click.prevent="changeLanguage('cn')">
                                 <img src="@/assets/img/flag/cn.png" style="height:30px">
                                 <p>简体中文</p>
                             </a>
                         </li>
-                        <li class="list-inline-item text-center"><!-- d-none -->
+                        <li class="list-inline-item text-center">
                             <a href="#" v-on:click.prevent="changeLanguage('tw')">
                                 <img src="@/assets/img/flag/tw.png" style="height:30px">
                                 <p>繁体中文</p>
                             </a>
                         </li>
-                        <li class="list-inline-item text-center"><!-- d-none -->
+                        <li class="list-inline-item text-center">
                             <a href="#" v-on:click.prevent="changeLanguage('kr')">
                                 <img src="@/assets/img/flag/kr.png" style="height:30px">
                                 <p>한국어</p>
@@ -42,15 +42,14 @@
                 <h5 class="title">{{ $t("hyunheeLee") }}</h5>
                 <h3 class="mb-4">{{ $t("Software Developer") }}</h3>
                 <img src="@/assets/img/MyPhoto.png">
-                <ul class="links">
+                <ul class="links d-none">
                     <li>
                         <a
                         class="btn"
                         href="https://github.com/Ariakekoichi/"
                         target="_blank"
                         title="Hyunhee Lee GitHub"
-                        >Github</a
-                        >
+                        >Github</a>
                     </li>
                     <li>
                         <a
@@ -58,8 +57,7 @@
                         href="https://www.linkedin.com/in/hyunhee1121/"
                         target="_blank"
                         title="Hyunhee Lee LinkedIn"
-                        >LinkedIn</a
-                        >
+                        >LinkedIn</a>
                     </li>
                     <li>
                         <a
@@ -67,8 +65,7 @@
                         href="https://calendly.com/jipai1121"
                         target="_blank"
                         title="Hyunhee Lee Schedule a call"
-                        >Schedule a call</a
-                        >
+                        >Schedule a call</a>
                     </li>
                 </ul>
                 </div>
@@ -286,9 +283,9 @@
                                     <div class="card-back bg-white">
                                         <div class="card-body">
                                             <h3 class="card-title">{{ $t("GeikoOke") }}</h3>
-                                            <p class="card-text">{{ $t("GeikoOkeDescription-1") }}</p>
-                                            <p class="card-text">{{ $t("GeikoOkeDescription-2") }}</p>
-                                            <p class="card-text">{{ $t("GeikoOkeDescription-3") }}</p>
+                                            <p class="card-text">・{{ $t("GeikoOkeDescription-1") }}</p>
+                                            <p class="card-text">・{{ $t("GeikoOkeDescription-2") }}</p>
+                                            <p class="card-text">・{{ $t("GeikoOkeDescription-3") }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -328,7 +325,7 @@
                                             <p class="card-text">{{ $t("Forest Witch Description-3") }}</p>
                                             <p class="card-text">{{ $t("Forest Witch Description-4") }}</p>
                                             <h3 class="card-title mt-2">{{ $t("Forest Witch Download") }}</h3>
-                                            <p class="card-text"><a href="https://drive.google.com/file/d/18kXaHyKOn-Kr_TXmAltx72Xccr1h2YI5/view?usp=sharing">https://drive.google.com/file/d/18kXaHyKOn-Kr_TXmAltx72Xccr1h2YI5/view?usp=sharing</a></p>
+                                            <p class="card-text"><a href="https://drive.google.com/file/d/18kXaHyKOn-Kr_TXmAltx72Xccr1h2YI5/view?usp=sharing">Google Drive</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -348,13 +345,25 @@
                 </div><!-- #content -->
             </div><!-- .main -->
             <div class="footer">
-                <a
-                    class="btn"
-                    href="mailto:jipai1121@gmail.com"
-                    subject="subject text"
-                    target="_blank"
-                    title="Hyunhee Lee e-mail"
-                    >Message Me</a>
+                <ul class="links">
+                    <li>
+                        <a
+                        class="btn"
+                        href="https://github.com/Ariakekoichi/"
+                        target="_blank"
+                        title="Hyunhee Lee GitHub"
+                        >Github</a>
+                    </li>
+                    <li>
+                        <a
+                        class="btn"
+                        href="mailto:jipai1121@gmail.com"
+                        subject="subject text"
+                        target="_blank"
+                        title="Hyunhee Lee e-mail"
+                        >Email Me</a>
+                    </li>
+                </ul>
                 <nav class="text-center changeLanguage mt-5">
                     <ul class="list-inline">
                         <li class="list-inline-item text-center">
@@ -369,19 +378,19 @@
                                 <p>日本語</p>
                             </a>
                         </li>
-                        <li class="list-inline-item text-center"><!-- d-none -->
+                        <li class="list-inline-item text-center">
                             <a href="#" v-on:click.prevent="changeLanguage('cn')">
                                 <img src="@/assets/img/flag/cn.png" style="height:30px">
                                 <p>简体中文</p>
                             </a>
                         </li>
-                        <li class="list-inline-item text-center"><!-- d-none -->
+                        <li class="list-inline-item text-center">
                             <a href="#" v-on:click.prevent="changeLanguage('tw')">
                                 <img src="@/assets/img/flag/tw.png" style="height:30px">
                                 <p>繁体中文</p>
                             </a>
                         </li>
-                        <li class="list-inline-item text-center"><!-- d-none -->
+                        <li class="list-inline-item text-center">
                             <a href="#" v-on:click.prevent="changeLanguage('kr')">
                                 <img src="@/assets/img/flag/kr.png" style="height:30px">
                                 <p>한국어</p>
