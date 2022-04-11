@@ -4,7 +4,7 @@
         <div class="container">
             <div class="main">
                 <nav class="text-right changeLanguage">
-                    <ul class="list-inline">
+                    <ul class="list-inline topLanguages">
                         <li class="list-inline-item text-center">
                             <a href="#" v-on:click.prevent="changeLanguage('en')">
                                 <img src="@/assets/img/flag/us.png" style="height:30px">
@@ -36,14 +36,23 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="my-3">※ {{ $t("NotTranslated") }}</p>
+                    <p class="my-3 topLanguages">※ {{ $t("NotTranslated") }}</p>
                 </nav>
                 <div id="home">
                 <h5 class="title">{{ $t("hyunheeLee") }}</h5>
                 <h3 class="mb-4">{{ $t("Software Developer") }}</h3>
                 <img src="@/assets/img/MyPhoto.png">
-                <ul class="links d-none">
+                <ul class="links">
                     <li>
+                        <a
+                        class="btn"
+                        href="mailto:jipai1121@gmail.com"
+                        subject="subject text"
+                        target="_blank"
+                        title="Hyunhee Lee e-mail"
+                        >Email Me</a>
+                    </li>
+                    <li class="d-none">
                         <a
                         class="btn"
                         href="https://github.com/Ariakekoichi/"
@@ -51,7 +60,7 @@
                         title="Hyunhee Lee GitHub"
                         >Github</a>
                     </li>
-                    <li>
+                    <li class="d-none">
                         <a
                         class="btn"
                         href="https://www.linkedin.com/in/hyunhee1121/"
@@ -59,7 +68,7 @@
                         title="Hyunhee Lee LinkedIn"
                         >LinkedIn</a>
                     </li>
-                    <li>
+                    <li class="d-none">
                         <a
                         class="btn"
                         href="https://calendly.com/jipai1121"
@@ -354,15 +363,6 @@
                         title="Hyunhee Lee GitHub"
                         >Github</a>
                     </li>
-                    <li>
-                        <a
-                        class="btn"
-                        href="mailto:jipai1121@gmail.com"
-                        subject="subject text"
-                        target="_blank"
-                        title="Hyunhee Lee e-mail"
-                        >Email Me</a>
-                    </li>
                 </ul>
                 <nav class="text-center changeLanguage mt-5">
                     <ul class="list-inline">
@@ -592,6 +592,9 @@ export default {
     .copyright {
         font-size: 8px;
         margin-top: 25px;
+    }
+    .topLanguages {
+        text-align: center !important;
     }
 }
 </style>
